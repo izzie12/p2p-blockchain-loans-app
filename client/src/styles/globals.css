@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add custom styles here */
+body{
+  font-family: 'Lexend', sans-serif;
+  --tw-gradient-to: rgb(17 24 39 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #111827, var(--tw-gradient-to);
+}
+.font-heading{
+  font-family: 'Darker Grotesque', sans-serif;
+}
